@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    background-color: #eeeeee;
+    border: 0;
+}
+
+/* Header */
+
+header {
+position: fixed;
+background-color: #007765;
+background-size: cover;
+background-position: center;
+color: #ffffff;
+font-size: 24px;
+width: 100%;
+margin: auto;
+}
+
+/*Shapka*/
+
+.logo {
+    height: 45px;
+    width: 184px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+  }
+.menu_link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.menu_link:hover {
+    color: lightcoral;
+}
+
+/* PiperNetIsHere */
+
+.main {
+    width: 100%;
+    height: 403px;
+    background: url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+.main_text {
+    font-size: 72px;
+    width: 100%;
+    margin: auto; 
+    color: #ffffff;
+    padding-top: 200px;
+    text-align: center;
+}
+
+/* The Problem */
+
+.article {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 92px;
+}
+.h1 {
+    color:  #007765;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.text_article1 {
+    text-align: justify;
+}
+
+/* Hero text */
+
+.hero {
+    width: 100%;
+    height: 483px;
+    background: url("image-9.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+.hero_text {
+    text-align: center;
+    width: 100%;
+    max-width: 893px;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 128px;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* PPC */
+
+.PPC_logo {
+    float: left;
+    padding: 0 1em 1em 0;
+    height: 115px;
+    width: 115px;
+}
+.PPC {
+    background-color: #ffffff;
+    padding-top: 20px;
+    max-height: 604px;
+}
+.h1_PPC {
+    color:  #007765;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+/* The Team */
+
+.team_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.lid {
+    text-align: center;
+    padding: 28px 55px 28px;
+    margin: 0 30px;
+}
+.lid_logo {
+    height: 168px;
+    width: 168px;
+    margin: 0 auto;
+}
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin: 12px auto 0;
+}
+.profession {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 6px auto 0;
+}
+.team_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #333333;
+    max-height: 176px;
+}
+.footer_text {
+    text-align: center;
+    width: 100%;
+    max-width: 540px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
